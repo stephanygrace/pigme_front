@@ -3,6 +3,7 @@
 
 <head>
     <title>Pig Me Samgyupsal Restaurant</title>
+    <link rel="icon" href="/images/PigMeLogoH.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -26,7 +27,7 @@
 <body>
     <!--NAV BAR-->
     <nav>
-        <a href="menu.php" class="logo"><img src="images/PigmeLogoH.png"></a>
+        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
         <ul class="nav">
             <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>

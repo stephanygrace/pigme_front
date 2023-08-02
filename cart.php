@@ -19,34 +19,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript">
-    $(window).on('scroll', function() {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('nav2');
-        } else {
-            $('nav').removeClass('nav2');
-        }
-    })
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('nav2');
+            } else {
+                $('nav').removeClass('nav2');
+            }
+        })
     </script>
 </head>
 
 <body>
     <!--NAV BAR-->
     <nav>
-        <a href="menu.php" class="logo"><img src="images/PigmeLogoH.png"></a>
+        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
         <ul class="nav">
             <li class="nav-item "><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             <li><a class="cta" href="ordernow.php"><button>Order Now</button></a></li>
-            <a class="cta-1 active" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg"
-                        style="display: inline-block;"></i></button></a>
+            <a class="cta-1 active" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg" style="display: inline-block;"></i></button></a>
         </ul>
     </nav>
     <!--End Nav-->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');"
-        data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text justify-content-center">
@@ -84,31 +82,31 @@
                         </thead>
                         <form method="POST" onChange="getQuantity">
                             <?php
-							// $i = 1;
+                            // $i = 1;
 
 
-							// $result = mysqli_query($connect, "SELECT * FROM pigme_cart");
-							// $rows = mysqli_num_rows($result);
+                            // $result = mysqli_query($connect, "SELECT * FROM pigme_cart");
+                            // $rows = mysqli_num_rows($result);
 
-							// $query = "SELECT * FROM pigme_cart";
-							// $foodname = "";
-							// $quantity = 0;
-							// $price = 0;
-							// $pricesubtotal = 0;
-							// $subtotal = 0;
-							// $deliverfee = 60;
+                            // $query = "SELECT * FROM pigme_cart";
+                            // $foodname = "";
+                            // $quantity = 0;
+                            // $price = 0;
+                            // $pricesubtotal = 0;
+                            // $subtotal = 0;
+                            // $deliverfee = 60;
 
-							// if ($result = $connect->query($query)) {
+                            // if ($result = $connect->query($query)) {
 
-							// 	while ($i <= $rows) {
+                            // 	while ($i <= $rows) {
 
-							// 		while ($row = $result->fetch_assoc()) {
-							// 			$foodname = $row["foodname"];
-							// 			$quantity = $row["quantity"];
-							// 			$price = $row["price"];
-							// 			$pricesubtotal = $row["pricesubtotal"];
-							// 			$subtotal += $pricesubtotal;
-							?>
+                            // 		while ($row = $result->fetch_assoc()) {
+                            // 			$foodname = $row["foodname"];
+                            // 			$quantity = $row["quantity"];
+                            // 			$price = $row["price"];
+                            // 			$pricesubtotal = $row["pricesubtotal"];
+                            // 			$subtotal += $pricesubtotal;
+                            ?>
                             <tbody>
                                 <tr class="alert" role="alert">
                                     <td>
@@ -139,8 +137,7 @@
                                     <td>₱ 730.00</td>
 
                                     <td>
-                                        <button id="delitem" name="delitem" class="close" data-dismiss="alert"
-                                            aria-label="Close">
+                                        <button id="delitem" name="delitem" class="close" data-dismiss="alert" aria-label="Close">
                                             <span aria-hidden="true"><i class="fa fa-close"></i></span>
                                         </button>
 
@@ -149,13 +146,13 @@
                             </tbody>
 
                             <?php
-							// 			$i++;
-							// 		}
-							// 	}
-							// }
+                            // 			$i++;
+                            // 		}
+                            // 	}
+                            // }
 
 
-							?>
+                            ?>
 
                             <!-- <td> <button name="updatecart" class="btn btn-primary py-3 px-4"> Update cart </button>
 							</td> -->
@@ -198,19 +195,19 @@
             </div>
             </form>
             <script>
-            function up(max) {
-                document.getElementById("quantity").value = parseInt(document.getElementById("quantity").value) + 1;
-                if (document.getElementById("quantity").value >= parseInt(max)) {
-                    document.getElementById("quantity").value = max;
+                function up(max) {
+                    document.getElementById("quantity").value = parseInt(document.getElementById("quantity").value) + 1;
+                    if (document.getElementById("quantity").value >= parseInt(max)) {
+                        document.getElementById("quantity").value = max;
+                    }
                 }
-            }
 
-            function down(min) {
-                document.getElementById("quantity").value = parseInt(document.getElementById("quantity").value) - 1;
-                if (document.getElementById("quantity").value <= parseInt(min)) {
-                    document.getElementById("quantity").value = min;
+                function down(min) {
+                    document.getElementById("quantity").value = parseInt(document.getElementById("quantity").value) - 1;
+                    if (document.getElementById("quantity").value <= parseInt(min)) {
+                        document.getElementById("quantity").value = min;
+                    }
                 }
-            }
             </script>
         </div>
     </section>
@@ -229,11 +226,8 @@
                             COMPLETE UNLI SIDE DISHES, SOUP, RICE & ICE CREAM atbp.</p>
                         <div class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                             <a href="https://www.facebook.com/pigsamgyup/"><i class="fa fa-facebook"></i></a>
-                            <a
-                                href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i
-                                    class="fa fa-google"></i></a>
+                            <a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i class="fa fa-instagram"></i></a>
+                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i class="fa fa-google"></i></a>
                         </div>
                     </div>
                 </div>
@@ -280,8 +274,7 @@
                                 <li><i class="fa fa-location-arrow"></i><span class="text"> 10 R. Jabson Street,
                                         Pateros, Metro Manila</span></li>
                                 <li><i class="fa fa-phone"></i><span class="text"> (+63)917 108 0421</span></a></li>
-                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span
-                                            class="text"> jramsresto@yahoo.com</span></a></li>
+                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span class="text"> jramsresto@yahoo.com</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -297,7 +290,7 @@
 </html>
 
 <script type="text/javascript">
-$('#quantitycart').keyUp(function() {
-    $('.quant').text($(this).val());
-});
+    $('#quantitycart').keyUp(function() {
+        $('.quant').text($(this).val());
+    });
 </script>
