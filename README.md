@@ -9,7 +9,7 @@ Welcome to PigMe Samgyupsal Restaurant website. This website is built using PHP,
 
 ## 🌐 View Website
 
-Check out the website here: [PigMe Samgyupsal Restaurant Website](https://stephanygrace.github.io/pigme_user/)
+Check out the website here: [PigMe Samgyupsal Restaurant Website](https://stephanygrace.github.io/pigme_samgy/)
 
 ## 🚀 Technologies Used
 
