@@ -25,7 +25,7 @@ Check out the website here: [PigMe Samgyupsal Restaurant Website](https://stepha
 To get started with PigMe_User, simply clone this repository:
 
 ```bash
-git clone https://github.com/stephanygrace/pigme_user.git
-cd pigme_user
+git clone https://github.com/stephanygrace/pigme_samgy.git
+cd pigme_samgy
 ```
 
