@@ -63,102 +63,100 @@ mysqli_real_query($connect, "SELECT * FROM pigme_confirmed_orders ORDER BY id DE
 ?>
 
 <head>
-    <title>Pig Me Samgyupsal Restaurant</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Pig Me Samgyupsal Restaurant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/path/to/parallax.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-    $(window).on('scroll', function() {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('nav2');
-        } else {
-            $('nav').removeClass('nav2');
-        }
-    })
-    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/path/to/parallax.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function() {
+			if ($(window).scrollTop()) {
+				$('nav').addClass('nav2');
+			} else {
+				$('nav').removeClass('nav2');
+			}
+		})
+	</script>
 </head>
 <style>
-body {
-    background-color: #eee
-}
+	body {
+		background-color: #eee
+	}
 
-.fs-12 {
-    font-size: 12px
-}
+	.fs-12 {
+		font-size: 12px
+	}
 
-.fs-15 {
-    font-size: 15px
-}
+	.fs-15 {
+		font-size: 15px
+	}
 
-.name {
-    margin-bottom: -2px
-}
+	.name {
+		margin-bottom: -2px
+	}
 
-.product-details {
-    margin-top: 13px
-}
+	.product-details {
+		margin-top: 13px
+	}
 </style>
 
 <body>
-    <!--NAV BAR-->
-    <nav>
-        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
-        <ul class="nav">
-            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
-            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-            <li><a class="cta" href="ordernow.php"><button>Order Now</button></a></li>
-            <a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg"
-                        style="display: inline-block;"></i></button></a>
-        </ul>
-    </nav>
-    <!--End Nav-->
+	<!--NAV BAR-->
+	<nav>
+		<a href="index.html" class="logo"><img src="images/PigmeLogoH.png"></a>
+		<ul class="nav">
+			<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+			<li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
+			<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+			<li><a class="cta" href="ordernow.php"><button>Order Now</button></a></li>
+			<a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg" style="display: inline-block;"></i></button></a>
+		</ul>
+	</nav>
+	<!--End Nav-->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');"
-        data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text justify-content-center">
-                <div class="col-md-9 text-center mb-4">
-                    <h1 class="mb-2 bread">Order Receipt </h1>
-                    <p class="breadcrumbs">
-                        <span class="mr-2">
-                            <a href="index.php">Home ><i class="ion-ios-arrow-forward"></i></a>
-                        </span>
-                        <span class="mr-2">
-                            <a href="ordernow.php">Order Now ><i class="ion-ios-arrow-forward"></i></a>
-                        </span>
-                        <span class="mr-2">
-                            <a href="details.php">Billing Details ><i class="ion-ios-arrow-forward"></i></a>
-                        </span>
-                        <span>Order Receipt</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!---->
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text justify-content-center">
+				<div class="col-md-9 text-center mb-4">
+					<h1 class="mb-2 bread">Order Receipt </h1>
+					<p class="breadcrumbs">
+						<span class="mr-2">
+							<a href="index.html">Home ><i class="ion-ios-arrow-forward"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href="ordernow.php">Order Now ><i class="ion-ios-arrow-forward"></i></a>
+						</span>
+						<span class="mr-2">
+							<a href="details.php">Billing Details ><i class="ion-ios-arrow-forward"></i></a>
+						</span>
+						<span>Order Receipt</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!---->
 
-    <section class="ftco-section-1">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-12 text-center heading-section ftco-animate fadeInUp ftco-animated">
-                    <h1 class="mb-4" style="font-size: 100px">Thank You!</h1>
-                </div>
-            </div>
+	<section class="ftco-section-1">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-12 text-center heading-section ftco-animate fadeInUp ftco-animated">
+					<h1 class="mb-4" style="font-size: 100px">Thank You!</h1>
+				</div>
+			</div>
 
-            <div class="receipt bg-white p-3 rounded"><img src="images/PigmeLogoH.png" width="150">
-                <h4 class="mt-2 mb-3">Your order is confirmed!</h4>
-                <h6 class="name">Hello <?php
+			<div class="receipt bg-white p-3 rounded"><img src="images/PigmeLogoH.png" width="150">
+				<h4 class="mt-2 mb-3">Your order is confirmed!</h4>
+				<h6 class="name">Hello <?php
 										$iname = 0;
 										$timestamp = time() + date("Z");
 										$foreachaddress = "";
@@ -180,36 +178,34 @@ body {
 										}
 
 										?></h6><span class="fs-12 text-black-50">Please prepare your payment and wait for the call of our
-                    rider.</span>
-                <hr>
-                <div class="d-flex flex-row justify-content-between align-items-center order-details">
-                    <div><span class="d-block fs-12">Order date</span><span
-                            class="font-weight-bold"><?php echo gmdate('d M Y', $timestamp); ?></span></div>
-                    <div><span class="d-block fs-12">Payment method</span><span class="font-weight-bold">COD</span>
-                    </div>
-                    <div><span class="d-block fs-12">Shipping Address</span><span
-                            class="font-weight-bold text-success"><?php echo $foreachaddress; ?></span></div>
-                </div>
-                <hr>
+					rider.</span>
+				<hr>
+				<div class="d-flex flex-row justify-content-between align-items-center order-details">
+					<div><span class="d-block fs-12">Order date</span><span class="font-weight-bold"><?php echo gmdate('d M Y', $timestamp); ?></span></div>
+					<div><span class="d-block fs-12">Payment method</span><span class="font-weight-bold">COD</span>
+					</div>
+					<div><span class="d-block fs-12">Shipping Address</span><span class="font-weight-bold text-success"><?php echo $foreachaddress; ?></span></div>
+				</div>
+				<hr>
 
-                <!--Start of Receipt-->
-                <section class="ftco-section-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="table-wrap">
-                                <table class="table">
-                                    <thead class="thead-primary">
-                                        <tr>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                            <th>Product</th>
-                                            <th>Quantity</th>
-                                            <th>Sub Total</th>
-                                            <th>&nbsp;</th>
-                                        </tr>
-                                    </thead>
-                                    <form method="POST" onChange="getQuantity">
-                                        <?php
+				<!--Start of Receipt-->
+				<section class="ftco-section-5">
+					<div class="container">
+						<div class="row">
+							<div class="table-wrap">
+								<table class="table">
+									<thead class="thead-primary">
+										<tr>
+											<th>&nbsp;</th>
+											<th>&nbsp;</th>
+											<th>Product</th>
+											<th>Quantity</th>
+											<th>Sub Total</th>
+											<th>&nbsp;</th>
+										</tr>
+									</thead>
+									<form method="POST" onChange="getQuantity">
+										<?php
 										$order = array();
 										$orderquant = array();
 										$ordersub = array();
@@ -246,65 +242,61 @@ body {
 										for ($i = 0; $i < count($order); $i++) {
 											//foreach(array_combine($order, $orderquant) as $orderval => $orderquantval){	
 										?>
-                                        <tbody>
-                                            <tr class="alert" role="alert">
-                                                <td>
-                                                </td>
-                                                <td>
-                                                    <div class="img" style="background-image:url()"></div>
-                                                </td>
-                                                <td>
-                                                    <div class="email">
-                                                        <span><?php echo "{$order[$i]}"; ?></span>
-                                                    </div>
-                                                </td>
-                                                <td><?php echo "{$orderquant[$i]}"; ?></td>
+											<tbody>
+												<tr class="alert" role="alert">
+													<td>
+													</td>
+													<td>
+														<div class="img" style="background-image:url()"></div>
+													</td>
+													<td>
+														<div class="email">
+															<span><?php echo "{$order[$i]}"; ?></span>
+														</div>
+													</td>
+													<td><?php echo "{$orderquant[$i]}"; ?></td>
 
-                                                <td>₱<?php echo "{$ordersub[$i]}"; ?></td>
+													<td>₱<?php echo "{$ordersub[$i]}"; ?></td>
 
-                                        </tbody>
+											</tbody>
 
-                                        <?php
+										<?php
 										}
 										?>
-                                </table>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                </section>
+								</table>
+							</div>
+						</div>
+						</form>
+					</div>
+				</section>
 
 
-                <!--End of Receipt-->
+				<!--End of Receipt-->
 
-                <br><br>
-                <div class="mt-5 amount row">
-                    <div class="d-flex justify-content-center col-md-6"></div>
-                    <div class="col-md-6">
-                        <div class="billing">
-                            <div class="d-flex justify-content-between"><span>Subtotal</span><span
-                                    class="font-weight-bold">Php <?php echo $total; ?></span></div>
-                            <div class="d-flex justify-content-between mt-2"><span>Shipping fee</span><span
-                                    class="font-weight-bold">Php 60</span></div>
-                            <hr>
-                            <div class="d-flex justify-content-between mt-1"><span
-                                    class="font-weight-bold">Total</span><span class="font-weight-bold text-success">Php
-                                    <?php echo $total + 60; ?></span></div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="d-flex justify-content-between align-items-center footer">
-                    <div class="thanks"><span class="d-block font-weight-bold">Thanks for shopping</span><span>PigMe
-                            Samgyupsal team</span></div>
-                    <div class="d-flex flex-column justify-content-end align-items-end"><span
-                            class="d-block font-weight-bold">Need Help?</span><span>Call (+63)917 108 0421</span></div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-        <br><br><br>
+				<br><br>
+				<div class="mt-5 amount row">
+					<div class="d-flex justify-content-center col-md-6"></div>
+					<div class="col-md-6">
+						<div class="billing">
+							<div class="d-flex justify-content-between"><span>Subtotal</span><span class="font-weight-bold">Php <?php echo $total; ?></span></div>
+							<div class="d-flex justify-content-between mt-2"><span>Shipping fee</span><span class="font-weight-bold">Php 60</span></div>
+							<hr>
+							<div class="d-flex justify-content-between mt-1"><span class="font-weight-bold">Total</span><span class="font-weight-bold text-success">Php
+									<?php echo $total + 60; ?></span></div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="d-flex justify-content-between align-items-center footer">
+					<div class="thanks"><span class="d-block font-weight-bold">Thanks for shopping</span><span>PigMe
+							Samgyupsal team</span></div>
+					<div class="d-flex flex-column justify-content-end align-items-end"><span class="d-block font-weight-bold">Need Help?</span><span>Call (+63)917 108 0421</span></div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<br><br><br>
 
 
 
@@ -313,84 +305,79 @@ body {
 
 
 
-        </div>
-        <div class="parallax" data-parallax="scroll" data-z-index="1"
-            style="height: 300px; background-image: url(images/bg1.jpg);">
-        </div>
+		</div>
+		<div class="parallax" data-parallax="scroll" data-z-index="1" style="height: 300px; background-image: url(images/bg1.jpg);">
+		</div>
 
 
-        <!--Footer-->
-        <footer class="ftco-footer ftco-bg-light">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">PigMe Samgyupsal</h2>
-                            <p>UNLI SAMGYUPSAL PORK, BEEF, CHICKEN, CHEESE UNLI CRAB, FLAVORED CHICKEN WINGS & SHRIMP
-                                WITH COMPLETE UNLI SIDE DISHES, SOUP, RICE & ICE CREAM atbp.</p>
-                            <div class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                                <a href="https://www.facebook.com/pigsamgyup/"><i class="fa fa-facebook"></i></a>
-                                <a
-                                    href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i
-                                        class="fa fa-instagram"></i></a>
-                                <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i
-                                        class="fa fa-google"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Open Hours</h2>
-                            <ul class="list-unstyled open-hours">
-                                <li class="d-flex"><span>Monday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Tuesday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Wednesday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Thursday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Friday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Saturday</span><span>11:00 - 22:00</span></li>
-                                <li class="d-flex"><span>Sunday</span><span> 11:00 - 22:00</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Customers</h2>
-                            <div class="thumb d-sm-flex">
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c1.jpg);">
-                                </a>
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c2.jpg);">
-                                </a>
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c3.jpg);">
-                                </a>
-                            </div>
-                            <div class="thumb d-flex">
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c4.jpg);">
-                                </a>
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c5.jpg);">
-                                </a>
-                                <a href="#" class="thumb-menu img" style="background-image: url(images/c6.jpg);">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Questions?</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li><i class="fa fa-location-arrow"></i><span class="text"> 10 R. Jabson Street,
-                                            Pateros, Metro Manila</span></li>
-                                    <li><i class="fa fa-phone"></i><span class="text"> (+63)917 108 0421</span></a></li>
-                                    <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span
-                                                class="text"> jramsresto@yahoo.com</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--End Footer-->
+		<!--Footer-->
+		<footer class="ftco-footer ftco-bg-light">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md-6 col-lg-3">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">PigMe Samgyupsal</h2>
+							<p>UNLI SAMGYUPSAL PORK, BEEF, CHICKEN, CHEESE UNLI CRAB, FLAVORED CHICKEN WINGS & SHRIMP
+								WITH COMPLETE UNLI SIDE DISHES, SOUP, RICE & ICE CREAM atbp.</p>
+							<div class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+								<a href="https://www.facebook.com/pigsamgyup/"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i class="fa fa-instagram"></i></a>
+								<a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i class="fa fa-google"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Open Hours</h2>
+							<ul class="list-unstyled open-hours">
+								<li class="d-flex"><span>Monday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Tuesday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Wednesday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Thursday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Friday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Saturday</span><span>11:00 - 22:00</span></li>
+								<li class="d-flex"><span>Sunday</span><span> 11:00 - 22:00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Customers</h2>
+							<div class="thumb d-sm-flex">
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c1.jpg);">
+								</a>
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c2.jpg);">
+								</a>
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c3.jpg);">
+								</a>
+							</div>
+							<div class="thumb d-flex">
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c4.jpg);">
+								</a>
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c5.jpg);">
+								</a>
+								<a href="#" class="thumb-menu img" style="background-image: url(images/c6.jpg);">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Have a Questions?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li><i class="fa fa-location-arrow"></i><span class="text"> 10 R. Jabson Street,
+											Pateros, Metro Manila</span></li>
+									<li><i class="fa fa-phone"></i><span class="text"> (+63)917 108 0421</span></a></li>
+									<li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span class="text"> jramsresto@yahoo.com</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--End Footer-->
 
 </body>
 

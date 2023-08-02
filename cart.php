@@ -32,9 +32,9 @@
 <body>
     <!--NAV BAR-->
     <nav>
-        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
+        <a href="index.html" class="logo"><img src="images/PigmeLogoH.png"></a>
         <ul class="nav">
-            <li class="nav-item "><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
@@ -52,7 +52,7 @@
                     <h1 class="mb-2 bread">Cart </h1>
                     <p class="breadcrumbs">
                         <span class="mr-2">
-                            <a href="index.php">Home ><i class="ion-ios-arrow-forward"></i></a>
+                            <a href="index.html">Home ><i class="ion-ios-arrow-forward"></i></a>
                         </span>
                         <span>Cart >
                             <i class="ion-ios-arrow-forward"></i>

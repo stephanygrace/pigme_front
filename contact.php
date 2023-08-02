@@ -13,24 +13,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript">
-        $(window).on('scroll', function() {
-            if ($(window).scrollTop()) {
-                $('nav').addClass('nav2');
-            } else {
-                $('nav').removeClass('nav2');
-            }
-        })
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('nav2');
+        } else {
+            $('nav').removeClass('nav2');
+        }
+    })
     </script>
 </head>
 <style type="text/css">
-    .form-invalid {
-        outline: 1px solid red !important;
-    }
+.form-invalid {
+    outline: 1px solid red !important;
+}
 
-    h2,
-    h4 {
-        align-content: center;
-    }
+h2,
+h4 {
+    align-content: center;
+}
 </style>
 <?php
 // $message_sent = false;
@@ -60,19 +60,21 @@
 <body>
     <!--NAV BAR-->
     <nav>
-        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
+        <a href="index.html" class="logo"><img src="images/PigmeLogoH.png"></a>
         <ul class="nav">
-            <li class="nav-item "><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
             <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
             <li><a class="cta" href="ordernow.php"><button>Order Now</button></a></li>
-            <a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg" style="display: inline-block;"></i></button></a>
+            <a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg"
+                        style="display: inline-block;"></i></button></a>
         </ul>
     </nav>
     <!--End Nav-->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');"
+        data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text justify-content-center">
@@ -80,7 +82,7 @@
                     <h1 class="mb-2 bread">Contact </h1>
                     <p class="breadcrumbs">
                         <span class="mr-2">
-                            <a href="index.php">Home ><i class="ion-ios-arrow-forward"></i></a>
+                            <a href="index.html">Home ><i class="ion-ios-arrow-forward"></i></a>
                         </span>
                         <span>Contact >
                             <i class="ion-ios-arrow-forward"></i>
@@ -116,7 +118,8 @@
                         <div class="col-md-12 mb-3">
                             <p>
                                 <span>Address:</span>
-                                <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/" style="color: #e77e4e;"> 10 R. Jabson Street, Pateros, Metro Manila</a>
+                                <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"
+                                    style="color: #e77e4e;"> 10 R. Jabson Street, Pateros, Metro Manila</a>
                             </p>
                         </div>
                         <div class="col-md-12 mb-3">
@@ -134,7 +137,8 @@
                         <div class="col-md-12 mb-3">
                             <p>
                                 <span>Page:</span>
-                                <a href="https://www.facebook.com/pigsamgyup" style="color: #e77e4e;">https://www.facebook.com/pigsamgyup</a>
+                                <a href="https://www.facebook.com/pigsamgyup"
+                                    style="color: #e77e4e;">https://www.facebook.com/pigsamgyup</a>
                             </p>
                         </div>
                     </div>
@@ -146,24 +150,28 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder=" Your Name" name="name" id="name" required>
+                                        <input type="text" class="form-control" placeholder=" Your Name" name="name"
+                                            id="name" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control <?= $invalid_class_name ?? "" ?>" placeholder=" Your Email" name="email" id="email" required>
+                                        <input type="text" class="form-control <?= $invalid_class_name ?? "" ?>"
+                                            placeholder=" Your Email" name="email" id="email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder=" Subject" name="subject" id="subject" required>
+                                        <input type="text" class="form-control" placeholder=" Subject" name="subject"
+                                            id="subject" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder=" Message" required style="resize: none;"></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                                            placeholder=" Message" required style="resize: none;"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +203,11 @@
                             COMPLETE UNLI SIDE DISHES, SOUP, RICE & ICE CREAM atbp.</p>
                         <div class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                             <a href="https://www.facebook.com/pigsamgyup/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i class="fa fa-instagram"></i></a>
-                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i class="fa fa-google"></i></a>
+                            <a
+                                href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i
+                                    class="fa fa-google"></i></a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +254,8 @@
                                 <li><i class="fa fa-location-arrow"></i><span class="text"> 10 R. Jabson Street,
                                         Pateros, Metro Manila</span></li>
                                 <li><i class="fa fa-phone"></i><span class="text"> (+63)917 108 0421</span></a></li>
-                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span class="text"> jramsresto@yahoo.com</span></a></li>
+                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span
+                                            class="text"> jramsresto@yahoo.com</span></a></li>
                             </ul>
                         </div>
                     </div>

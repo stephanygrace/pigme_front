@@ -32,9 +32,9 @@
 <body>
     <!--NAV BAR-->
     <nav>
-        <a href="index.php" class="logo"><img src="images/PigmeLogoH.png"></a>
+        <a href="index.html" class="logo"><img src="images/PigmeLogoH.png"></a>
         <ul class="nav">
-            <li class="nav-item "><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
@@ -65,7 +65,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <form action="index.php" method="POST" id="formID" class="checkout-form">
+                        <form action="index.html" method="POST" id="formID" class="checkout-form">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="fname" placeholder="First Name" required="">
                             </div>
