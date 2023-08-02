@@ -13,13 +13,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript">
-    $(window).on('scroll', function() {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('nav2');
-        } else {
-            $('nav').removeClass('nav2');
-        }
-    })
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('nav2');
+            } else {
+                $('nav').removeClass('nav2');
+            }
+        })
     </script>
 </head>
 
@@ -33,14 +33,13 @@
             <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             <li><a class="cta" href="ordernow.php"><button>Order Now</button></a></li>
-            <a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg"
-                        style="display: inline-block;"></i></button></a>
+            <a class="cta-1" href="cart.php"><button>Cart <i class="fa fa-shopping-basket fa-lg" style="display: inline-block;"></i></button></a>
         </ul>
     </nav>
     <!--End Nav-->
 
     <!--Carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -110,18 +109,15 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <!--Facebook-->
-                        <a href="https://www.facebook.com/pigsamgyup/" target="_blank"><i
-                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/pigsamgyup/" target="_blank"><i class="fa fa-facebook"></i></a>
                     </div>
                     <div class="col-sm-4">
                         <!--Google-->
-                        <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"
-                            target="_blank"><i class="fa fa-google"></i></a>
+                        <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/" target="_blank"><i class="fa fa-google"></i></a>
                     </div>
                     <div class="col-sm-4">
                         <!--Instagram-->
-                        <a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"
-                            target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
                     </div>
 
 
@@ -237,8 +233,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 heading-section ftco-animate text-center fadeInUp ftco-animated"
-                    style="color:black">
+                <div class="col-md-7 heading-section ftco-animate text-center fadeInUp ftco-animated" style="color:black">
                     <h2 style="color:black">OUR SERVICES</h2>
                     <p style="color:black">UNLI SAMGYUPSAL PORK, BEEF, CHICKEN FILLET, CRAB, SHRIMPS, SALMON BELLY
                         STRIPS, SQUID RINGS,
@@ -293,9 +288,7 @@
 
 
 
-    <section class="ftco-section img"
-        style="background-image: url('images/bg1.jpg'); background-position: 50% ; height: 500px;"
-        data-stellar-background-ratio="0.2">
+    <section class="ftco-section img" style="background-image: url('images/bg1.jpg'); background-position: 50% ; height: 500px;" data-stellar-background-ratio="0.2">
     </section>
 
     <footer class="ftco-footer ftco-bg-light">
@@ -307,13 +300,9 @@
                         <p>UNLI SAMGYUPSAL PORK, BEEF, CHICKEN, CHEESE UNLI CRAB, FLAVORED CHICKEN WINGS & SHRIMP WITH
                             COMPLETE UNLI SIDE DISHES, SOUP, RICE & ICE CREAM atbp.</p>
                         <div class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                            <a href="https://www.facebook.com/pigsamgyup/" target="_blank"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a
-                                href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i
-                                    class="fa fa-instagram"></i></a>
-                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i
-                                    class="fa fa-google"></i></a>
+                            <a href="https://www.facebook.com/pigsamgyup/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/explore/locations/117948986274585/pig-me-samgyupsal-atbp-by-jrams/?hl=en"><i class="fa fa-instagram"></i></a>
+                            <a href="https://vymaps.com/PH/Pig-Me-Samgyupsal-Atbp-By-JRAMS-117948989607918/"><i class="fa fa-google"></i></a>
                         </div>
                     </div>
                 </div>
@@ -360,8 +349,7 @@
                                 <li><i class="fa fa-location-arrow"></i><span class="text"> 10 R. Jabson Street,
                                         Pateros, Metro Manila</span></li>
                                 <li><i class="fa fa-phone"></i><span class="text"> (+63)917 108 0421</span></a></li>
-                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span
-                                            class="text"> jramsresto@yahoo.com</span></a></li>
+                                <li><i class="fa fa-envelope"></i> <a href="mailto:jramsresto@yahoo.com"><span class="text"> jramsresto@yahoo.com</span></a></li>
                             </ul>
                         </div>
                     </div>
